@@ -1,0 +1,30 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   -webkit-tap-highlight-color: transparent;
+}
+
+body {
+   font-family: 'Overpass', sans-serif;
+   font-size: 15px;
+   width: 100vw;
+   min-height: 400px;
+   max-height: -webkit-fill-available;
+   overflow-x: hidden;
+}
+
+img {
+   max-width: 100%;
+}
+
+ul {
+   list-style-type: none;
+}
+
+button {
+   cursor: pointer;
+   border: none;
+   display: inline-block;
+   text-transform: uppercase;
+}
