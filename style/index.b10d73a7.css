@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 400px;
+  max-height: -webkit-fill-available;
+  font-family: Overpass, sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  display: inline-block;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.text, .text--rated {
+  color: #7c8798;
+  font-size: 1rem;
+}
+
+.text--rated {
+  color: #fb7413;
+}
+
+.main {
+  height: 100%;
+  min-height: 400px;
+  background: #121417;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  width: 360px;
+  max-width: 449px;
+  height: 390px;
+  background-color: #252d37;
+  border-radius: 1.2rem;
+  gap: 1rem;
+  padding: 2rem 1.3rem;
+  display: grid;
+}
+
+.container .star-icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #3a4655;
+  border-radius: 100%;
+  padding: .3rem .6rem;
+}
+
+.container .star-icon img {
+  margin-top: 4px;
+}
+
+.container--thank-you {
+  text-align: center;
+  place-items: center;
+}
+
+.rating__list {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: .7rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.rating__list li {
+  color: #7c8798;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  background: #3a4655;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+  display: flex;
+}
+
+.rating__list li:hover {
+  color: #fff;
+  background-color: #7c8798;
+}
+
+.rating__list li.active-rating {
+  color: #fff;
+  background: #fb7413;
+}
+
+.submit__btn {
+  color: #fff;
+  letter-spacing: .15rem;
+  background-color: #fb7413;
+  border-radius: 1.4rem;
+  padding: .9rem;
+  font-size: 1.1em;
+  transition: all .3s;
+}
+
+.submit__btn:hover {
+  color: #fb7413;
+  background-color: #fff;
+}
+
+.rating__thank-you {
+  background: #323c49;
+  border-radius: 1rem;
+  margin: 1.1rem;
+  padding: .6rem 1rem;
+}
+
+@media (min-width: 780px) {
+  :root {
+    font-size: 18px;
+  }
+
+  .container {
+    width: 70vmin;
+    min-height: 450px;
+    border-radius: 1.8rem;
+    padding: 2.5rem 1.8rem;
+  }
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */
