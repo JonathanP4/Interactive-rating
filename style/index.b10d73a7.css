@@ -38,7 +38,8 @@ button {
   font-size: 2rem;
 }
 
-.text, .text--rated {
+.text,
+.text--rated {
   color: #7c8798;
   font-size: 1rem;
 }
@@ -58,6 +59,7 @@ button {
 
 .container {
   width: 360px;
+  min-width: 350px;
   max-width: 449px;
   height: 390px;
   background-color: #252d37;
